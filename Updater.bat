@@ -11,7 +11,7 @@ echo No > Update.txt
 call ./MCServerCreator.bat
 
 :create
-curl -o Files.zip "https://codeload.github.com/Lcraft-Developers/Server-Creator/zip/refs/heads/main"
+curl -o Files.zip "https://github.com/Lcraft-Developers/Server-Creator-V2/archive/refs/heads/main.zip"
 tar -xf Files.zip
 echo Enter N
 xcopy ".\Server-Creator-main\*.*" ".\" /-Y /E
