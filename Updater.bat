@@ -21,7 +21,7 @@ echo Enter N
 xcopy ".\Server-Creator-V2-main\*.*" ".\" /-Y /E
 del "Server-Creator-V2-main.zip" /s /q /f
 del ".gitattributes" /s /q /f
-del "Server-Creator-V2-main" /s /q /f
+del "Server-Creator-V2-main.zip" /s /q /f
 FOR /D %%p IN (".\Server-Creator-V2-main\*.*") DO rmdir "%%p" /s /q
 rmdir "Server-Creator-V2-main" /s /q
 pause

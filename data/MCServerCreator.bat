@@ -2,7 +2,7 @@
 title Creation...
 
 :start
-curl -o nextver.txt https://raw.githubusercontent.com/Lcraft-Developers/Server-Creator-V2/main/data/version.txt
+curl https://raw.githubusercontent.com/Lcraft-Developers/Server-Creator-V2/main/data/version.txt -o nextver.txt
 set /p v=<version.txt
 set /p nv=<nextver.txt
 del nextver.txt
